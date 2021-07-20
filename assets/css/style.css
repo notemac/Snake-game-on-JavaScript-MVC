@@ -1,0 +1,48 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.mainScene {
+    height: 600px;
+    width: 1100px;
+    border: 3px solid black;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px; 
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid black;
+}
+.header-item {
+    display: inline-block;
+    width: 200px;
+}
+.btn {
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: gray;
+    font-weight: 900;
+}
+.btn:hover {
+    color: yellow;
+    cursor: pointer;
+}
+main {
+    text-align: center;
+    height: 500px;
+    margin: 0 auto;
+    width: 1050px;
+    background-image: url(../img/grass.jpg);
+    /*border: 1px solid black;*/
+    /*position: relative;*/
+}
+footer {
+    text-align: center;
+}

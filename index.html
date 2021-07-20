@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snake</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="mainScene">
+    <header>
+        <div id="btn-new-game" class="header-item btn">New game</div>
+        <div id="level" class="header-item">Level: 1</div>
+        <div id="btn-load-game" class="header-item btn">Load game</div>
+        <div id="btn-save-game" class="header-item btn">Save game</div>
+    </header>
+    
+    <main>
+        <canvas id="canvas"> </canvas>
+    </main>
+    
+    <footer>
+    </footer>
+</div>
+
+<audio class="fail">
+    <source src="assets/sound/fail.mp3" type="audio/mp3" />
+</audio>
+<audio class="success">
+    <source src="assets/sound/success.mp3" type="audio/mp3" />
+</audio>
+
+<script src="js/utils.js"></script>
+<script src="js/gameModel.js"></script>
+<script src="js/gameView.js"></script>
+<script src="js/gameController.js"></script>
+</body>
+</html>
